@@ -1,0 +1,105 @@
+/* this file is valid css
+Dec 25, 2005, what a Xmas */
+/* http://jigsaw.w3.org/css-validator */
+
+html {
+  color: black;
+  background-color: #dcecfb;
+  /* padding-right: 10em;
+   width: 42em; */
+  width: 950px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Georgia, "Times New Roman", sans-serif;
+  /* background-image: url("/images/熊猫烧香.exe");
+  background-repeat: repeat-y;
+  /* make it more beautiful */
+  /*  font-family: Georgia; */
+}
+h1 {
+  font-size: 177%;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+h2 {
+  font-size: 161%;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 146%;
+}
+h4 {
+  font-size: 133%;
+}
+h5 {
+  font-size: 121%;
+}
+h6 {
+  font-size: 110%;
+}
+a:link {
+  text-decoration:none;
+  color: #0000EE
+}
+a:visited {
+  text-decoration:none;
+  color: #5454FF
+}
+a:active {
+  text-decoration:none;
+  color: #0000EE
+  /* color:#A61022; */
+}
+a:hover {
+  text-decoration:underline;
+  color:#A61022;
+}
+img {
+  border: 0;
+}
+.code {
+  color: #0000ff;
+  background-color: #ddddff;
+  font-family: MonoSpace, "Lucida Console", Courier;
+ /* font-size: 0.9em; */
+}
+ul.navbar li {
+  color: black;
+  background-color: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+div.closed {
+  display: none;
+}
+div.open {
+  display: block;
+}
+.aphorism {
+  font-style: italic;
+  /* font-size: small;*/
+  /* text-align: center; */
+}
+.r {
+    color: red
+}
+.g {
+    color: green
+}
+.m {
+    color: fuchsia
+}
+.c {
+    text-align: center
+}
+p.text {
+  text-indent: 2em
+}
+.infobox {
+    background-color: #ffb; padding: 0.4em; border: 1px solid #eee;
+    text-align: center;
+}
+.infobox h4, .infobox p {
+    margin: 0; padding: 0;
+}
